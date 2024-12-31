@@ -27,7 +27,7 @@ check()
 # Update function 
 update()
 {
-    echo "boo"
+    init
 }
 
 ############################################################
@@ -50,7 +50,7 @@ Help()
 ############################################################
 # Input options                                            #
 ############################################################
-while getopts ":i:c:h" option; do
+while getopts ":i:c:u:h" option; do
    case $option in
       h) # display Help
          Help

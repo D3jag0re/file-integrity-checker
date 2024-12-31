@@ -19,7 +19,7 @@ The tool should be capable of the following:
 - [X] On first use, store the computed hashes in a secure location.
 - [X] For subsequent uses, compare the newly computed hashes against the previously stored ones.
 - [X] Clearly report any discrepancies found as a result of the hash comparison, indicating possible file tampering.
-- [] Allow for manual re-initialization of log file integrity.
+- [X] Allow for manual re-initialization of log file integrity.
 
 Here is the example of how it might look like:
 
@@ -51,9 +51,10 @@ After completing this project you will get the idea of hashing algorithms, secur
 
 ## Notes 
 
-- There is both a `bash` and `python` version of this as my own personal stretch goal. 
+- Eventuall plan to have both a `bash` and `python` version of this as my own personal stretch goal. 
 - for `bash` made use of `sha256sum` . Hoping this doesn't void the requirements. Still required lots of modification and usage inside the tool. 
 - if `checksum` file is included in the directory, it will report `FAILED`
+- Not the most strict tool I've ever built...
 
 ## Lessons Learned
 
